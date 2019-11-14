@@ -1,0 +1,28 @@
+* {
+    margin:0;
+    padding:0;
+}
+main {
+    min-height: calc(100vh - 64px);
+}
+main > .container {
+  padding: 60px 15px 0;
+}
+
+.footer {
+  height: 64px;
+  background-color: #f5f5f5;
+  bottom: 0;
+  width: 100%;
+  border-top: 1px solid #a1a5a9;
+}
+
+.footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.side-menu {
+  height: calc(100vh - 136px);
+  border-right: 2px solid #4e555b;
+}
